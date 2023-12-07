@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevator System</title>
+    <link rel="stylesheet" href="{% static 'frontend/css/styles.css' %}">
+</head>
+<body>
+    <div id="elevator-status">
+        <h1>Elevator Status</h1>
+        <p id="current-floor">Current Floor: <span id="floor-number">1</span></p>
+        <p id="direction">Direction: <span id="direction-text">Not moving</span></p>
+        <button onclick="requestElevator()">Request Elevator</button>
+        <button onclick="markMaintenance()">Mark Maintenance</button>
+        <button onclick="openDoor()">Open Door</button>
+        <button onclick="closeDoor()">Close Door</button>
+    </div>
+
+    <script src="{% static 'frontend/js/script.js' %}"></script>
+</body>
+</html>
