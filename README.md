@@ -1,1 +1,3 @@
 # JumpingMinds-Backend-Project
+
+Dependencies
